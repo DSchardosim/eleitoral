@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F2EFE9;
+    color: #666;
+}
+#container {
+    text-align: center;
+    background-color: #D5D3CC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.candidato{
+    border: 2px solid #B8AFAD;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.candidato:houver{
+    background-color: #B8AFAD;
+}
+.candidato img{
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+#result{
+    margin-top: 20px;
+    font-weight: bold;
+}
